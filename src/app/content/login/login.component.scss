@@ -1,0 +1,32 @@
+.login-form{
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+.wrapper{
+    width: 320px;
+    float: none;
+    margin: 0 auto;
+    background-color: white;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form {
+    margin-top: 3em;
+    padding: 1em;
+    color: #77C9D4;
+    width: 100%;
+    input {
+        margin: 0.3em;
+        padding-left: 10px;
+        margin-top: 1.5em;
+        height: 2.5em;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    .btn {
+        min-width: 230px;
+        margin: 0.3em auto;
+        margin-top: 7em;
+    }
+}
