@@ -8,6 +8,7 @@ import { IndexComponent } from './content/index/index.component';
 import { InfoComponent } from './content/info/info.component';
 import { LoginComponent } from './content/login/login.component';
 import { StockWatchComponent } from './content/stock-watch/stock-watch.component';
+import { routingModule } from './routing';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,12 @@ import { StockWatchComponent } from './content/stock-watch/stock-watch.component
     IndexComponent,
     InfoComponent,
     LoginComponent,
-    StockWatchComponent,
-    NgbModule
+    StockWatchComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule,
+    routingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

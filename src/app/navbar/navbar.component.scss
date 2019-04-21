@@ -1,0 +1,16 @@
+li{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    color: #FFF;
+    text-decoration: none;
+}

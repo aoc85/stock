@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+$forest: #015249;
+$marine: #57BC90;
+$feather: #77C9D4;
+$gray: #A5A5F9; 
+
+body {
+    background-image: linear-gradient(to right, $feather, $marine);
+}
