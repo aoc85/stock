@@ -1,16 +1,11 @@
 .login-form{
-    align-content: center;
     text-align: center;
-    vertical-align: middle;
-}
-.wrapper{
-    width: 320px;
-    float: none;
-    margin: 0 auto;
     background-color: white;
-    height: 400px;
+    width: 320px;
+    margin: 0 auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 form {
     margin-top: 3em;
     padding: 1em;
@@ -24,9 +19,12 @@ form {
         border: 1px solid #ccc;
         border-radius: 3px;
     }
+    a {
+        font-size: 12px;
+    }
     .btn {
         min-width: 230px;
         margin: 0.3em auto;
-        margin-top: 7em;
+        margin-top: 3em;
     }
 }
